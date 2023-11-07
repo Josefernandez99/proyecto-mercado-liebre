@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --AMARILLO: #EAC926;
+    --AZUL: #03264C;
+    --CELESTE: #1259c3;
+    --GRIS-OSCURO: #666;
+    --GRIS-CLARO: #ebebeb;
+    --VERDE: #39b54a;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: var(--GRIS-CLARO);
+}
+/*header*/
+header{
+    background-color: #EAC926;
+}
+.barra-de-navegacion-inferior ul{
+    list-style-type: none;
+}
+.barra-de-navegacion-inferior a{
+    text-decoration: none;
+    color: black;
+
+}
+.burger-menu{ 
+    text-align: center;
+    margin:auto;
+    padding: 6px;
+    border-radius: 5px;
+    border: var(--CELESTE) solid 1px;
+    width: 2.3rem;
+    color: white;
+    background-color: var(--CELESTE);
+    font-size: 17px;
+}
+/*main*/
+.contenedor-del-producto img{
+width: 100%;
+}
+.visita{
+    font-size: 24px;
+    color: var(--GRIS-OSCURO);
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+}
+.descripcion{
+    font-size: 16px;
+}
+/*footer*/
+footer{
+    background-color: white;
+    padding: 22px;
+    color: var(--GRIS-OSCURO);
+}
+.articulos-del-footer{
+    text-align: center;
+    padding: 50px;
+   
+}
+.textos-del-footer i{
+    color: var(--CELESTE);
+    font-size: 2em;
+    margin-bottom: 10px;
+
+
+
+}
+.copy{
+    font-weight: 400;
+
+}
+
+
+
+
